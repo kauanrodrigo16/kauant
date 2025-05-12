@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark's Anime</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #ffcc00;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 300px;
+      max-width: 90%;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ffcc00;
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #e6b800;
+    }
+
+    .explicacao {
+      text-align: left;
+      max-width: 600px;
+      margin: 20px auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <section id="menino-ney" tabindex="0">
+    <p style="color: blue; font-weight: bold;">meninoney</p>
+
+    <h1>Neymar</h1>
+
+    <img src="https://cdn.resfu.com/media/img_news/el-jugador-brasileno--neymar--durante-su-etapa-en-santos--efe.jpg?size=1000x&lossy=1" alt="Neymar" />
+
+    <h2>melhor do mundo</h2>
+
+    <div class="explicacao">
+      <p>&lt;div&gt;: Uma tag genérica usada para agrupar elementos e estruturar o layout de uma página.</p>
+      <p>Abas (Tabs): Organizam conteúdo em seções sem recarregar a página.</p>
+      <p>CSS:</p>
+      <ul>
+        <li>background-color: define a cor de fundo</li>
+        <li>font-size: define o tamanho da fonte</li>
+        <li>text-align: controla o alinhamento do texto</li>
+        <li>color: define a cor do texto</li>
+        <li>text-transform: controla letras maiúsculas/minúsculas</li>
+      </ul>
+    </div>
+  </section>
+
+  <button onclick="mostrarImagem()">Mostrar Imagem</button>
+
+  <img
+    id="imagem"
+    src="https://i.pinimg.com/736x/45/7a/11/457a11d9cd4d2c9234c61a42a0b6dafd.jpg"
+    style="display: none; width: 300px"
+    alt="Imagem surpresa"
+  />
+
+  <img src="neymartrio.jpg" alt="Descrição da imagem" width="300" />
+
+  <script>
+    function mostrarImagem() {
+      document.getElementById("imagem").style.display = "block";
+    }
+  </script>
+</body>
+</html>
+
